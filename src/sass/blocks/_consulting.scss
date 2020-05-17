@@ -1,0 +1,17 @@
+.consulting {
+    background: url(../img/bg2.jpg) center center/cover no-repeat;
+    min-height: 680px;
+    padding: 103px 0 92px 0;
+    &__header {
+        color: #ffffff;
+        font-size: 26px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    &__subheader {
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    
+}

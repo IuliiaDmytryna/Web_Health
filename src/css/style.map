@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/style.scss",
+		"../sass/base/_variables.scss"
+	],
+	"sourcesContent": [
+		"@import 'base/variables.scss';\r\nhtml {\r\n    font-family: 'Museo Sans Cyrl', sans-serif;\r\n}",
+		""
+	],
+	"names": [],
+	"mappings": ";AACA,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,6BAA6B;CAC7C"
+}

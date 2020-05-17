@@ -1,0 +1,29 @@
+@import 'base/mixins';
+html {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+.container {
+    width: 950px;
+    margin: 0 auto;
+}
+
+@import 'blocks/promo';
+
+@import 'blocks/header';
+
+@import 'blocks/buttons';
+
+@import 'blocks/advantages';
+
+@import 'blocks/consulting';
+
+@import 'blocks/forms';
+
+@import 'blocks/_carousel';
+
+@import 'blocks/_catalog';
+
+@import 'blocks/response';
+
+@import 'blocks/_footer';
