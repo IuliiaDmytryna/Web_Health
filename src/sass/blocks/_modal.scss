@@ -1,0 +1,46 @@
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.56);
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 305px;
+    height: 350px;
+    background-color: #f2f2f2;
+    padding: 40px 40px;
+    text-align: center;
+    &_mini {
+        height: 70px;
+    }
+    }
+&__specsympol {
+        color: $main-color;
+        position: absolute;
+        top: 0;
+        right: -30px;
+        transform: translateY(-50%);
+        font-size: 40px;
+        cursor: pointer;
+    }
+&__subtitle {
+    color: #0d0d0d;
+    font-size: 15px;
+    font-weight: 700;
+}
+&__titledescr {
+    color: #0d0d0d;
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 13px;
+}
+}
+
+#order, #consultation, #thanks {
+    display: none;
+}

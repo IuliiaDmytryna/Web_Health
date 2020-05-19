@@ -23,7 +23,7 @@
                 </div>
                 <div class="header__contacts">
                     <a href="tel:+74999228974" class="phone">+7 (499) 922-89-74</a>
-                    <button class="button">заказать звонок</button>
+                    <button data-model="consultation" class="button">заказать звонок</button>
                 </div>
 
             </header>
@@ -47,7 +47,7 @@
                         на все вопросы
                     </div>
                 </div>
-                <button class="button button_main">заказать кОНСУЛЬТАЦИЮ</button>
+                <button data-model="consultation" class="button button_main">заказать кОНСУЛЬТАЦИЮ</button>
                 <div class="promo__link">
                     или
                     <a href="#">ПЕРЕЙТИ В КАТАЛОГ</a>
@@ -420,6 +420,36 @@
     </div>
 </div>
 </footer>
+<div class="overlay">
+<div class="modal" id="consultation">
+    <div class="overlay__specsympol">&times;</div>
+    <div class="overlay__subtitle">Просто заполните форму заявки</div>
+    <div class="overlay__titledescr">и мы перезвоним вам в течении 10 минут</div>
+    <form class="feed-form" action="#">
+        <input required name="name" type="text" placeholder="Ваше имя">
+        <input required name="phone" type="number" placeholder="Ваш телефон">
+        <input required name="email" type="email" placeholder="Ваш E-mail">
+        <input type="submit" value="заказать кОНСУЛЬТАЦИЮ">
+</form> 
+</div>  
+    <div class="modal" id="order">
+        <div class="overlay__specsympol">&times;</div>
+        <div class="overlay__subtitle">Ваш заказ:</div>
+        <div class="overlay__titledescr">Пульсометр Polar FT1</div>
+        <form class="feed-form" action="#">
+            <input required name="name" type="text" placeholder="Ваше имя">
+            <input required name="phone" type="number" placeholder="Ваш телефон">
+            <input required name="email" type="email" placeholder="Ваш E-mail">
+            <input type="submit" value="купить">
+    </form> 
+    </div>  
+    <div class="modal modal_mini" id="thanks">
+        <div class="overlay__specsympol">&times;</div>
+        <div class="overlay__subtitle">Спасибо за вашу заявку!</div>
+        <div class="overlay__titledescr">Наш менеджер свяжется с вами 
+            в ближайшее время!</div>
+    </div>  
+    </div>
         <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
         <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script src="js/slick.min.js"></script>

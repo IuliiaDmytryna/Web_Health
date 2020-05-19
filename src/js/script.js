@@ -33,4 +33,20 @@ $(document).ready(function(){
           $('.catalog-tab__list').eq(i).toggleClass('catalog-tab__list_active');
         })
       })
+
+      //Modals
+      $('[data-model=consultation]').on("click", function(){
+        $('.overlay, #consultation').fadeIn('slow');
+      })
+      $('.overlay__specsympol').on("click", function(){
+        $('.overlay, #consultation, #thanks, #order').fadeOut('slow');
+      });
+      $('.btn-mini').on("click", function(){
+        $('.overlay, #order').fadeIn('slow');
+      });
+      $('.btn-mini').each(function(i){
+        $(this).on('click', function(){
+          $('#order .overlay__titledescr').text($('.catalog-tab__subtitle').eq(i).text());
+        })
+      })
   });
