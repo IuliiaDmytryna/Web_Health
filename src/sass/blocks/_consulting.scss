@@ -13,5 +13,13 @@
         font-size: 20px;
         font-weight: 400;
     }
-    
+    .error {
+        border: 1px solid red;
+    }
+    label.error {
+        color: #ffffff;
+        border: none;
+        text-align: center;
+        margin-bottom: 10px;
+    }
 }

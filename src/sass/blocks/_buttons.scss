@@ -16,7 +16,6 @@
     height: 50px;
     margin-top: 68px;
     margin-bottom: 18px;
-    color: #ffffff;
     font-size: 16px;
     font-weight: 500;
     text-transform: uppercase;
@@ -27,4 +26,8 @@
     height: 40px;
     font-size: 14px;
     font-weight: 300;
+}
+
+.btn_non-top {
+    margin-top: 0;
 }

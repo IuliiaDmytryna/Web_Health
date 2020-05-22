@@ -101,11 +101,11 @@
                     по подбору пульсометра </h2>
                 <h3 class="consulting__subheader">Просто заполните форму заявки 
                     и мы перезвоним вам в течении 10 минут</h3>   
-                <form class="feed-form" action="#">
-                        <input required name="name" type="text" placeholder="Ваше имя">
-                        <input required name="phone" type="number" placeholder="Ваш телефон">
-                        <input required name="email" type="email" placeholder="Ваш E-mail">
-                        <input type="submit" value="заказать кОНСУЛЬТАЦИЮ">
+                <form id="consulting_form" class="feed-form" action="#">
+                        <input name="name" type="text" placeholder="Ваше имя">
+                        <input name="phone" type="number" placeholder="Ваш телефон">
+                        <input name="email" type="email" placeholder="Ваш E-mail">
+                        <button class="button button_main btn_non-top">заказать кОНСУЛЬТАЦИЮ</button>
                 </form>     
             </div>
         </section>
@@ -429,7 +429,7 @@
         <input required name="name" type="text" placeholder="Ваше имя">
         <input required name="phone" type="number" placeholder="Ваш телефон">
         <input required name="email" type="email" placeholder="Ваш E-mail">
-        <input type="submit" value="заказать кОНСУЛЬТАЦИЮ">
+        <button class="button button_main btn_non-top">заказать кОНСУЛЬТАЦИЮ</button>
 </form> 
 </div>  
     <div class="modal" id="order">
@@ -440,7 +440,7 @@
             <input required name="name" type="text" placeholder="Ваше имя">
             <input required name="phone" type="number" placeholder="Ваш телефон">
             <input required name="email" type="email" placeholder="Ваш E-mail">
-            <input type="submit" value="купить">
+            <button class="button button_main btn_non-top">купить</button>
     </form> 
     </div>  
     <div class="modal modal_mini" id="thanks">
@@ -452,6 +452,7 @@
     </div>
         <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
         <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src="js/jquery.validate.min.js"></script>
         <script src="js/slick.min.js"></script>
         <script src="js/script.js"></script>
 </body>
