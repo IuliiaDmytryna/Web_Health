@@ -93,4 +93,12 @@ $(document).ready(function(){
           });
           return false;
       });
+      //Smooth scroll up
+      $(window).scroll(function() {
+        if($(this).scrollTop() > 1600) {
+          $('.pageup').fadeIn();
+        }else{
+          $('.pageup').fadeOut();
+        }
+      });
   });
